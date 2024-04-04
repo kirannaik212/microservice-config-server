@@ -1,1 +1,10 @@
-application file properties
+spring:
+  application:
+    name: CONFIG-DEFAULT
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+      hostname: localhost
